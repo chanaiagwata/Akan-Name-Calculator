@@ -1,28 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Name Generator</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <Header>
         <div>
             <h1>Akan Name Generator</h1>
             <!-- Description of what the app does -->
             <div class="card">
+                <div class="card-image"></div>
                 <div class="card-text">
                     <h2>What does the name generator do?</h2>
-                    <p>The Akan Name Generator will assist you in generating a random Akan name for free. It is painless, quick, and simple to use! It's ideal for personal use or anything else you can think of giving Akan name! With only a few simple inputs, you may randomly generate Akan name for your character or story.</p>
+                    <p>The Akan people of Ghana give their children names based on the day of the week and the order in
+                        which they were born. These "day names" have additional connotations related to the person's
+                        character and soul.
+                        </br>
+                        The Akan Name Generator will assist you in generating a random Akan name for free. It is
+                        painless, quick, and simple to use! It's ideal for personal use or anything else you can think
+                        of giving Akan name! With only a few simple inputs, you may randomly generate Akan name for
+                        your character or story.</p>
                 </div>
+                <div class="card-stats"></div>
             </div>
 
         </div>
-
-
-
     </Header>
-    
+    <main>
+        <!-- Create a section for user details entry -->
+        <form>
+            <h3>Enter Details</h3>
+            </br>
+            </br>
+            <p>Name</p>
+            <input type="text">
+            </br>
+            </br>
+            <p>Gender</p>
+            <select id="gender">
+                <option disabled selected value="gender identity">--Gender--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            </br>
+            </br>
+            <p>Enter Century Born</p>
+            <input type="number" id="birthCentury onkeyup= " digits(this)" name="year" value="">
+            </br>
+            </br>
+            <p>Enter Year Born</p>
+            <input type="number" id="birthYear" onkeyup="digits(this)" name="year" value="">
+            </br>
+            </br>
+            <p>Enter Month of Birth</p>
+            <select id="birthMonth" class="select-month" name="">
+                <option disabled selected value="month">--Month--</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+            </br>
+            </br>
+            <p>Enter Day of Birth</p>
+            <input type="text">
+            </br>
+            </br>
+            <button id="btn">Submit</button>
+        </form>
+        <!-- Results section -->
+        <aside>
+            <div>
+                <div>
+                    <h3>Results</h3>
+                    <input type="text-area">
+                </div>
+                </br>
+                <button>Clear</button>
+            </div>
+
+        </aside>
+    </main>
 </body>
 </html>

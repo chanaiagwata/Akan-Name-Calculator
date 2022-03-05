@@ -11,6 +11,7 @@ body{
     height: 100vh;
    
 }
+/* styling the header section */
 header{
     display: flex;
     justify-content: center;
@@ -28,10 +29,9 @@ h1{
     border-radius: 18px;
     background: #f1f1f1;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9); 
-    text-align: center;
-    align-items: center;
-    width: 1000px;
-    height: 150px;
-    line-height: 30px;
+    text-align: left;
+    padding: 10px;
+    width: 1500px;
+    height: 130px;
     font-size: 18px;
 }
