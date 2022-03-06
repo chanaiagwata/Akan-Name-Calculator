@@ -4,14 +4,80 @@
     box-sizing: border-box;
 
 }
+nav{
+    margin: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-body {
+}
+.logo1{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    font-size: 30px;
+    color:#99BCB8;
+   
+}
+.logo{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    font-size: 30px;
+    color: #DB6D4A;
+}
+.list{
+    display: flex;
+    font-size: 18px;
+    list-style: none;
+    display: inline-flex;
+   margin-right: 70px;
+   
+}
+  li {
+       margin-right: 50px;
+       
+  }
+  li a{
+    text-decoration: none;
+    color: rgb(52,52,52); 
+  }
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leadHeader{
+    margin:100px;
+    font-size: px;
+    line-height: 25px;
+    color: rgb(52,52,52);   
+    width: 900px;
+}
+.leadHeader h1{
+    text-align: left;
+}
+.leadHeader p{
+    font-weight:bold;
+    margin-top: -20px;
+    font-size: 18px;
+    font-family: 'Gill Sans';
+    color: #4B4B4B;
+    
+
+}
+
+.AfricanWoman{
+    margin-right: 170px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+}
+/* body {
     background-image: url("../images/flag.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 
-}
+} */
 
 /* styling the header section */
 header {
