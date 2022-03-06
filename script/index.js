@@ -27,25 +27,25 @@ function getAkanName() {
 
     if (gender.value == "female") {
         if (femaleNames[index] == englishDays.indexOf("Sunday")) {
-            document.getElementById("output").innerHTML = "Day of birth Sunday: Your Akan Name would be: " + femaleNames[0];
+            document.getElementById("output").innerHTML = "Day of birth Sunday: Thus, your Akan Name would be: " + femaleNames[0];
             return true
         } else if (index == englishDays.indexOf("Monday")) {
-            document.getElementById("output").innerHTML = "Day of birth is Monday: Your Akan Name would be: " + femaleNames[1];
+            document.getElementById("output").innerHTML = "Day of birth is Monday: Thus, your Akan Name would be: " + femaleNames[1];
             return true
         } else if (index == englishDays.indexOf("Tuesday")) {
-            document.getElementById("output").innerHTML = "Day of birth is Tuesday: Your Akan Name would be: " + femaleNames[2];
+            document.getElementById("output").innerHTML = "Day of birth is Tuesday: Thus, your Akan Name would be: " + femaleNames[2];
             return true
         } else if (index == englishDays.indexOf("Wednesday")) {
-            document.getElementById("output").innerHTML = "Day of birth is Wednesday: Your Akan Name would be: " + femaleNames[3];
+            document.getElementById("output").innerHTML = "Day of birth is Wednesday: Thus, your Akan Name would be: " + femaleNames[3];
             return true
         } else if (index == englishDays.indexOf("Thursday")) {
-            document.getElementById("output").innerHTML = "Day of birth is Thursday: Your Akan Name would be: " + femaleNames[4];
+            document.getElementById("output").innerHTML = "Day of birth is Thursday: Thus, your Akan Name would be: " + femaleNames[4];
             return true
         } else if (index == englishDays.indexOf("Friday")) {
-            document.getElementById("output").innerHTML = "Day of birth is Friday: Your Akan Name would be: " + femaleNames[5];
+            document.getElementById("output").innerHTML = "Day of birth is Friday: Thus, your Akan Name would be: " + femaleNames[5];
             return true
         } else
-            document.getElementById("output").innerHTML = "Day of birth is Saturday: Your Akan Name would be: " + femaleNames[6];
+            document.getElementById("output").innerHTML = "Day of birth is Saturday: Thus, your Akan Name would be: " + femaleNames[6];
 
     }
     // get male name and day
@@ -54,22 +54,22 @@ function getAkanName() {
             document.getElementById("output").innerHTML = "Day of birth Sunday: Your Akan Name would be: " + maleNames[0];
             return true
         } else if (index == englishDays.indexOf("Monday")) {
-            document.getElementById("output").innerHTML = "Day of birth is Monday: Your Akan Name would be: " + maleNames[1];
+            document.getElementById("output").innerHTML = "Day of birth is Monday, Thus, your Akan Name would be: " + maleNames[1];
             return true
         } else if (index == englishDays.indexOf("Tuesday")) {
-            document.getElementById("output").innerHTML = "Day of birth is Tuesday: Your Akan Name would be: " + maleNames[2];
+            document.getElementById("output").innerHTML = "Day of birth is Tuesday: Thus, your Akan Name would be: " + maleNames[2];
             return true
         } else if (index == englishDays.indexOf("Wednesday")) {
-            document.getElementById("output").innerHTML = "Day of birth is Wednesday: Your Akan Name would be: " + maleNames[3];
+            document.getElementById("output").innerHTML = "Day of birth is Wednesday: Thus, your Akan Name would be: " + maleNames[3];
             return true
         } else if (index == englishDays.indexOf("Thursday")) {
-            document.getElementById("output").innerHTML = "Day of birth is Thursday: Your Akan Name would be: " + maleNames[4];
+            document.getElementById("output").innerHTML = "Day of birth is Thursday: Thus, your Akan Name would be: " + maleNames[4];
             return true
         } else if (index == englishDays.indexOf("Friday")) {
-            document.getElementById("output").innerHTML = "Day of birth is Friday: Your Akan Name would be: " + maleNames[5];
+            document.getElementById("output").innerHTML = "Day of birth is Friday: Thus, your Akan Name would be: " + maleNames[5];
             return true
         } else
-            document.getElementById("output").innerHTML = "Day of birth is Saturday: Your Akan Name would be: " + maleNames[6];
+            document.getElementById("output").innerHTML = "Day of birth is Saturday: Thus, your Akan Name would be: " + maleNames[6];
 
     }
 
