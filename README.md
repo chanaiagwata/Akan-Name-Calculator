@@ -32,6 +32,9 @@
 * This project is open for improvement suggestions and interested parties can fork and pull request at any time.
 
 ## Setup Instructions
+* copy the url on arrow down
+* Clone on your computer
+* Go live or start your server
 HTTPS: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop
 
 ### Live Site
