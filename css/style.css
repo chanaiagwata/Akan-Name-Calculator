@@ -1,48 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+
 }
-body{
+
+body {
     background-image: url("../images/flag.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-   
+
 }
+
 /* styling the header section */
-header{
+header {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
-h1{
+
+h1 {
     text-align: center;
     margin-bottom: 50px;
 }
-.card{
+
+.card {
     display: grid;
     grid-template-areas: "text";
 
     font-family: sans-serif;
     border-radius: 18px;
     background: #f1f1f1;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9); 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     text-align: left;
     padding: 10px;
     width: 1500px;
     height: 130px;
     font-size: 18px;
 }
-form{
+
+form {
     background: #c4c4c4;
     width: 30vw;
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
 }
-.displayResults{
+
+.displayResults {
     background: #c4c4c4;
     width: 20vw;
     margin: 10px;
