@@ -21,6 +21,7 @@
 ### How it Works
 * Enter your birth details on the form'
 * Click the submit button, and your Akan name diaplays on the results section.
+![screenshot](https://raw.githubusercontent.com/chanaiagwata/Akan-Name-Calculator/main/images/mainscreen.png)
 ### Languages and Frameworks
 * HTML
 * CSS
