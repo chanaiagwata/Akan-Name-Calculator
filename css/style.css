@@ -111,11 +111,13 @@ main{
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 .calculation{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
    
 }
 .displayResults{
@@ -126,4 +128,13 @@ main{
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
+}
+footer {
+    /* color: #f1f1f1; */
+    font-size: 16px;
+    text-align: center;
+    color: #f1f1f1;
+    background: #DB6D4A;
+    padding: 20px;
+
 }
