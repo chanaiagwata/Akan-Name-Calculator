@@ -4,107 +4,101 @@
     box-sizing: border-box;
 
 }
+
 /* style header */
-nav{
-    /* margin: 30px; */
+nav {
     padding: 30PX;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     background: #49586F;
 
 }
-.logo1{
+
+.logo1 {
     font-family: 'Anton', sans-serif;
     font-size: 30px;
     font-size: 30px;
-    color:#99BCB8;
-   
+    color: #99BCB8;
+
 }
-.logo{
+
+.logo {
     font-family: 'Anton', sans-serif;
     font-size: 30px;
     font-size: 30px;
     color: #DB6D4A;
 }
-.list{
+
+.list {
     display: flex;
     font-size: 18px;
     list-style: none;
     display: inline-flex;
-   margin-right: 70px;
-   
+    margin-right: 70px;
+
 }
-  li {
-       margin-right: 50px;
-       
-  }
-  li a{
+
+li {
+    margin-right: 50px;
+
+}
+
+li a {
     text-decoration: none;
-    color: white; 
-  }
-  h1 {
+    color: white;
+}
+
+h1 {
     text-align: left;
     margin-bottom: 50px;
 }
-main{
-    background:#DECBBA
+
+main {
+    background: #DECBBA
 }
-  .banner{
+
+.banner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.leadHeader{
-    margin:100px;
+
+.leadHeader {
+    margin: 100px;
     font-size: px;
     line-height: 25px;
-    color: rgb(52,52,52);   
+    color: rgb(52, 52, 52);
     width: 900px;
 }
-.leadHeader h1{
+
+.leadHeader h1 {
     text-align: left;
 }
-.leadHeader p{
-    font-weight:bold;
+
+.leadHeader p {
+    font-weight: bold;
     margin-top: -20px;
     font-size: 18px;
     font-family: 'Gill Sans';
     color: #4B4B4B;
-    
+
 
 }
 
-.AfricanWoman{
+.Africa {
     margin-right: 170px;
     margin-top: 50px;
     margin-bottom: 0px;
-    
+
 }
-/* body {
-    background-image: url("../images/flag.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-
-} */
-
-/* styling the header section */
-/* header {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-} */
-
-
-/* style  results section*/
+/* style form */
 .card {
     display: grid;
     grid-template-areas: "text";
 
     font-family: sans-serif;
     border-radius: 18px;
-    /* background: #f1f1f1; */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     background: #c4c4c4;
     width: 30vw;
@@ -113,24 +107,26 @@ main{
     border-radius: 10px;
     margin-bottom: 100px;
 }
-.calculation{
+
+.calculation {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-   
+
+
 }
-.displayResults{
+
+.displayResults {
     font-family: sans-serif;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-    background-color:#c4c4c4;
+    background-color: #c4c4c4;
     width: 20vw;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
 }
+/* style footer */
 footer {
-    /* color: #f1f1f1; */
     font-size: 16px;
     text-align: center;
     color: #f1f1f1;
