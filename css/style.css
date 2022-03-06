@@ -35,3 +35,17 @@ h1{
     height: 130px;
     font-size: 18px;
 }
+form{
+    background: #c4c4c4;
+    width: 30vw;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.displayResults{
+    background: #c4c4c4;
+    width: 20vw;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}

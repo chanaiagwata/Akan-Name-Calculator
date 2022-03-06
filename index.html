@@ -26,7 +26,6 @@
                         of giving Akan name! With only a few simple inputs, you may randomly generate Akan name for
                         your character or story.</p>
                 </div>
-                <div class="card-stats"></div>
             </div>
 
         </div>
@@ -37,10 +36,6 @@
             <h3>Enter Details</h3>
             </br>
             </br>
-            <p>Name</p>
-            <input type="text">
-            </br>
-            </br>
             <p>Gender</p>
             <select id="gender">
                 <option disabled selected value="gender identity">--Gender--</option>
@@ -49,16 +44,12 @@
             </select>
             </br>
             </br>
-            <p>Enter Century Born</p>
-            <input type="number" id="birthCentury onkeyup= " digits(this)" name="year" value="">
-            </br>
-            </br>
             <p>Enter Year Born</p>
-            <input type="number" id="birthYear" onkeyup="digits(this)" name="year" value="">
+            <input type="text" id="birthYear">
             </br>
             </br>
             <p>Enter Month of Birth</p>
-            <select id="birthMonth" class="select-month" name="">
+            <select id="birthMonth">
                 <option disabled selected value="month">--Month--</option>
                 <option value="1">January</option>
                 <option value="2">February</option>
@@ -76,23 +67,25 @@
             </br>
             </br>
             <p>Enter Day of Birth</p>
-            <input type="text">
+            <input type="number" id="birthDay">
             </br>
             </br>
-            <button id="btn">Submit</button>
+            <button id="submit-btn">Submit</button>
         </form>
         <!-- Results section -->
         <aside>
             <div>
-                <div>
+                <div class="displayResults">
                     <h3>Results</h3>
                     <input type="text-area">
-                </div>
                 </br>
-                <button>Clear</button>
+                </br>
+                <button id = "clear-btn" style="width:70px; padding: 7px; font-size:14px">Clear</button>
+                </div>
             </div>
 
         </aside>
     </main>
+    <script src="script/index.js"></script>
 </body>
 </html>
