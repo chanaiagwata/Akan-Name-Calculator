@@ -89,9 +89,13 @@ function formValidate() {
     }
 
 }
+function clearing() {
+    document.getElementById("myForm").reset();
+  }
 
 submit.addEventListener("click", function (e) {
     e.preventDefault();
     formValidate();
+    clearing();
 
 })
