@@ -35,7 +35,7 @@
 * copy the url on arrow down
 * Clone on your computer
 * Go live or start your server
-HTTPS: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop
+* Click this link for additional information HTTPS: https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop
 
 ### Live Site
 Access it here http://192.168.0.107:5500/Akan-Name-Calculator/index.html
