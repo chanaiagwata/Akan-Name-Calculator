@@ -51,7 +51,7 @@ function getAkanName() {
     // get male name and day
     if (gender.value == "male") {
         if (femaleNames[index] == englishDays.indexOf("Sunday")) {
-            document.getElementById("output").innerHTML = "Day of birth Sunday: Your Akan Name would be: " + maleNames[0];
+            document.getElementById("output").innerHTML = "Day of birth Sunday: Thus, your Akan Name would be: " + maleNames[0];
             return true
         } else if (index == englishDays.indexOf("Monday")) {
             document.getElementById("output").innerHTML = "Day of birth is Monday, Thus, your Akan Name would be: " + maleNames[1];
