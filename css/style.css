@@ -97,34 +97,33 @@ main{
 } */
 
 
-
+/* style  results section*/
 .card {
     display: grid;
     grid-template-areas: "text";
 
     font-family: sans-serif;
     border-radius: 18px;
-    background: #f1f1f1;
+    /* background: #f1f1f1; */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-    text-align: left;
-    padding: 10px;
-    width: 1500px;
-    height: 130px;
-    font-size: 18px;
-}
-
-form {
     background: #c4c4c4;
     width: 30vw;
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
 }
-
-.displayResults {
-    background: #c4c4c4;
+.calculation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.displayResults{
+    font-family: sans-serif;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    background-color:#c4c4c4;
     width: 20vw;
-    margin: 10px;
-    padding: 20px;
     border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
 }

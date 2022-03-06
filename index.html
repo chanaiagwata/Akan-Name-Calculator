@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Shade&family=Lobster&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Shade&family=Lobster&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <nav>
         <p class="logo1">Aka<span class="logo">name</span></p>
         <ul class="list">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
-            
+
         </ul>
     </nav>
     <main>
         <div class="banner">
             <div class="leadHeader">
                 <h1>Discover all about Ghanian
-                </br>
-            </br> Naming Traditions</h1>
-                <p>The <em>Akan</em> people of <em>Ghana</em> give their children names based on the <em>day</em> of the week and the order in
-                    which they were born. These "day names" have <em>additional connotations</em> related to the person's
+                    </br>
+                    </br> Naming Traditions</h1>
+                <p>The <em>Akan</em> people of <em>Ghana</em> give their children names based on the <em>day</em> of the
+                    week and the order in
+                    which they were born. These "day names" have <em>additional connotations</em> related to the
+                    person's
                     <em> and soul.</em>
                     </br>
                     The Akan Name Generator will assist you in generating a random Akan name for free. It is
@@ -32,111 +38,65 @@
                     your character or story.</p>
             </div>
             <div class="AfricanWoman">
-                <img src="./images/trad1.jpg" alt="African woman portrait" height="400px" width="400px">
+                <img src="images/africa.png" alt="African woman portrait">
             </div>
         </div>
-
-    </main>
-    
-    
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<body>
-    <Header>
-        <div>
-            <h1>Akan Name Generator</h1>
-            <!-- Description of what the app does -->
+        <div class="calculation">
             <div class="card">
                 <div class="card-image"></div>
                 <div class="card-text">
-                    <h2>What does the name generator do?</h2>
-                    <p>The Akan people of Ghana give their children names based on the day of the week and the order in
-                        which they were born. These "day names" have additional connotations related to the person's
-                        character and soul.
+                    <!-- Create a section for user details entry -->
+                    <div class="form">
+                    <form>
+                        <h3>Enter Details</h3>
                         </br>
-                        The Akan Name Generator will assist you in generating a random Akan name for free. It is
-                        painless, quick, and simple to use! It's ideal for personal use or anything else you can think
-                        of giving Akan name! With only a few simple inputs, you may randomly generate Akan name for
-                        your character or story.</p>
+                        </br>
+                        <p>Gender</p>
+                        <select id="gender">
+                            <option disabled selected value="gender identity">--Gender--</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        </br>
+                        </br>
+                        <p>Enter Year Born</p>
+                        <input type="text" id="birthYear">
+                        </br>
+                        </br>
+                        <p>Enter Month of Birth</p>
+                        <select id="birthMonth">
+                            <option disabled selected value="0">--Month--</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                        </br>
+                        </br>
+                        <p>Enter Day of Birth</p>
+                        <input type="text" id="birthDay">
+                        </br>
+                        </br>
+                        <button id="submit-btn">Submit</button>
+                    </form>
+
                 </div>
             </div>
 
         </div>
-    </Header>
-    <main>
-        <!-- Create a section for user details entry -->
-        <form>
-            <h3>Enter Details</h3>
-            </br>
-            </br>
-            <p>Gender</p>
-            <select id="gender">
-                <option disabled selected value="gender identity">--Gender--</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-            </br>
-            </br>
-            <p>Enter Year Born</p>
-            <input type="text" id="birthYear">
-            </br>
-            </br>
-            <p>Enter Month of Birth</p>
-            <select id="birthMonth">
-                <option disabled selected value="0">--Month--</option>
-                <option value="1">January</option>
-                <option value="2">February</option>
-                <option value="3">March</option>
-                <option value="4">April</option>
-                <option value="5">May</option>
-                <option value="6">June</option>
-                <option value="7">July</option>
-                <option value="8">August</option>
-                <option value="9">September</option>
-                <option value="10">October</option>
-                <option value="11">November</option>
-                <option value="12">December</option>
-            </select>
-            </br>
-            </br>
-            <p>Enter Day of Birth</p>
-            <input type="text" id="birthDay">
-            </br>
-            </br>
-            <button id="submit-btn">Submit</button>
-        </form>
-        <!-- Results section -->
+        <!-- create result section -->
         <aside>
             <div>
                 <div class="displayResults">
-                    <h3>Your Akan name is:</h3>
+                    <h2 style="text-align:center;">Results</h2>
                     <p id="output">your Akan name is:</p>
                     </br>
                     </br>
@@ -146,7 +106,9 @@
 
         </aside>
     </main>
+
     <script src="script/index.js"></script>
 </body>
 
 </html>
+
