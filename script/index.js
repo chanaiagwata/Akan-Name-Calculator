@@ -50,7 +50,7 @@ function getAkanName() {
     }
     // get male name and day
     if (gender.value == "male") {
-        if (femaleNames[index] == englishDays.indexOf("Sunday")) {
+        if (maleNames[index] == englishDays.indexOf("Sunday")) {
             document.getElementById("output").innerHTML = "Day of birth Sunday: Thus, your Akan Name would be: " + maleNames[0];
             return true
         } else if (index == englishDays.indexOf("Monday")) {
@@ -89,9 +89,10 @@ function formValidate() {
     }
 
 }
+
 function clearing() {
     document.getElementById("myForm").reset();
-  }
+}
 
 submit.addEventListener("click", function (e) {
     e.preventDefault();
